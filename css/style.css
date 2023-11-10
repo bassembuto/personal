@@ -23,7 +23,22 @@ body {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
 
+::-webkit-scrollbar-track{
+    background: var(--bg-black-900);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--skin-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
 * {
     margin: 0;
     padding: 0;
